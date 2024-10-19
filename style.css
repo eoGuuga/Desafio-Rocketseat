@@ -1,123 +1,133 @@
-:root{
+:root {
     font-family: sans-serif;
 }
 
-body{
+body {
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
-#Page{
-    width: 1180px;
-    height: 3279px;
+#Page {
+    max-width: 1180px;
     background-color: #F5F4F0;
-    margin: 80px auto 137px auto;
+    margin: 80px auto;  /* Margem automática para centralizar a página */
+    padding: 80px;  /* Padding para criar espaçamento interno */
     box-sizing: border-box;
-    padding: 80px;
 }
 
-
-.Busan sub{
-    margin-bottom: 104px;
+/* Estilos para a seção principal */
+section {
+    margin-bottom: 60px; /* Espaçamento entre as seções */
 }
 
-h1{
+.Busan sub {
+    margin-bottom: 40px;  /* Espaçamento entre o subtítulo e a imagem */
+}
+
+h1 {
     color: #1B1B1B;
     font-size: 36px;
     font-weight: bold;
-    text-align: left;
+    margin-bottom: 24px;  /* Espaçamento abaixo do título */
 }
 
-sub{
+sub {
     color: #333333;
     font-size: 16px;
     text-align: center;
-    margin-top: 24px;
     line-height: 22px;
     font-style: italic;
+    margin-top: 24px;
+    display: block;  /* Garantir que seja uma linha separada */
 }
 
-h2{
+h2 {
     font-size: 32px;
     font-weight: bold;
-    text-align: left;
     color: #1B1B1B;
+    margin-bottom: 24px;  /* Espaçamento abaixo do subtítulo */
 }
 
-h3{
+h3 {
     font-size: 28px;
     font-weight: bold;
-    text-align: left;
-    text-align: top;
     color: #1B1B1B;
+    margin-top: 40px;  /* Espaçamento acima do subtítulo */
+    margin-bottom: 16px;  /* Espaçamento abaixo do subtítulo */
 }
 
-text-headline{
+text-headline {
     color: #E1624F;
     font-size: 16px;
     font-weight: bold;
-    text-align: left;
     text-transform: uppercase;
     line-height: 22px;
 }
 
-p{
+p {
     color: #333333;
     font-size: 16px;
-    font-weight: Regular;
-    text-align: left;
+    line-height: 1.5em;  /* Melhorar a legibilidade */
+    margin-bottom: 24px;  /* Espaçamento abaixo dos parágrafos */
 }
 
-footer{
+footer {
     text-align: center;
     color: #000000;
+    margin-top: 80px;  /* Espaçamento superior antes do rodapé */
 }
 
 img {
     border-radius: 28px;
     width: 100%;
+    margin-bottom: 24px;  /* Espaçamento abaixo das imagens */
 }
 
-.divider{
+.divider {
     width: 100%;
     height: 1px;
-    margin: 36px 0;
+    margin: 36px 0;  /* Espaçamento em torno do divisor */
     background-color: #d9d9d9;
 }
 
-
-footer img{
+footer img {
     vertical-align: middle;
     width: 2%;
-    color: #ffffff;
+    color: #000000;
 }
 
-.img-principal{
-
+.img-principal {
     border-radius: 28px;
     width: 100%;
-    padding-bottom: 24px;
+    margin-bottom: 24px;  /* Espaçamento abaixo da imagem principal */
 }
 
-section + section{
-    padding: 40px;
+section + section {
+    padding-top: 40px;  /* Espaçamento entre seções */
 }
 
-.sub-1{
+/* Estilos para os subtítulos (Bom para:) */
+.sub-1, .sub0, .sub1, .sub2, .sub3 {
+    margin-top: 16px;  /* Espaçamento superior antes das listas */
+}
+
+.sub-1 {
     color: #0C51A7;
 }
 
-.sub0{
+.sub0 {
     color: #0C51A7;
 }
 
-.sub1{
+.sub1 {
     color: #591B98;
 }
 
-.sub2{
+.sub2 {
     color: #E5245E;
 }
 
-.sub3{
+.sub3 {
     color: #E95E10;
 }
